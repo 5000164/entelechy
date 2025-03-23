@@ -1,0 +1,14 @@
+<idea-plugin>
+    <id>io.github.5000164.entelechy</id>
+    <name>Entelechy</name>
+    <vendor>Hiroshi Sugawara</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="entelechy"
+                    icon="/META-INF/pluginIcon.svg"
+                    anchor="left"
+                    factoryClass="io.github.5000164.entelechy.AiAssistantToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
